@@ -45,7 +45,7 @@ end10 = "g"
 end11 = "e"
 end12 = "r"
 
-
+# Makes a statement/sentence
 print(end1 + end2 + end3 + end4 + end5 + end6  + end7 + end8 + end9 + end10 + end11 + end12)
 
 # More formating
@@ -56,5 +56,5 @@ print(formatter % (True, False, False, True))
 print(formatter % (formatter, formatter, formatter, formatter))
 
 # Why did I use %r instead of %s
-
+# Used r because its a factor not a string
 
