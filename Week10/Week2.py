@@ -58,3 +58,33 @@ print(formatter % (formatter, formatter, formatter, formatter))
 # Why did I use %r instead of %s
 # Used r because its a factor not a string
 
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
+
+print()
+print()
+
+
+
+
+
+
+
+# What if I didnt like Jan being listed on the line with the rest of the
+# Test and away from the other months? How could I fix that?
+
+# More escaping
+
+tabbyDog = "\tI'm tabbed in."
+persianDog ="I'm split\non a line."
+backslashDog = "I'm \\ a \\ dog"
+taskDog = """
+Ill make a list:
+\t* Dog food
+\t* chicken
+\t* Dog treats\n\t* bone
+"""
+print(tabbyDog)
+print(persianDog)
+print(backslashDog)
+print(taskDog)
