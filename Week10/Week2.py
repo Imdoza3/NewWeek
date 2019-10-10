@@ -98,10 +98,10 @@ print(taskDog)
 age = input("How old are you?")
 height = input("How tall are you?")
 
-age = input("So, you really %r old and %r tall? Wow..." % (age, height))
+print("So, you really %r old and %r tall? Wow..." % (age, height))
 
 
+money = input("How much money do you have?")
+why = input("Why dont you have money?")
 
-
-
-
+print("So you dont have %r cash because you %r ?" % (money, why))
