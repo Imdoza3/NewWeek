@@ -105,3 +105,9 @@ money = input("How much money do you have?")
 why = input("Why dont you have money?")
 
 print("So you dont have %r cash because you %r ?" % (money, why))
+
+
+job = input("Where do you work?")
+why = input("Why do you work there?")
+
+print("You work %r? Why %r" % (job, why))
